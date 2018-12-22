@@ -12,7 +12,12 @@ public class main {
 	
 	 public static void main(String[] args)
 	   
-	    {  ArrayList<post> Posts= new ArrayList<post>();
+	    {  
+		
+		 UserControl obj = new UserControl();
+         obj.Register();
+		 
+		ArrayList<post> Posts= new ArrayList<post>();
 		int id=0;
 		 Scanner input = new Scanner(System.in);
 	    for(int i=0 ;i<2;i++)
